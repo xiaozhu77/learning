@@ -214,6 +214,7 @@ nav.addEventListener("mouseout", handleHover.bind(1));
 
 //
 //
+//固定导航栏
 const navheight = nav.getBoundingClientRect().height;
 
 const stickyNav = function (entries) {
@@ -238,7 +239,6 @@ headerObserver.observe(header);
 //
 //
 //
-//固定导航栏
 const allSection = document.querySelectorAll(".section");
 const revealSection = function (entries, observer) {
   const [entry] = entries;
