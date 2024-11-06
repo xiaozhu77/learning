@@ -302,7 +302,8 @@ const slider = function () {
 
   let curSlide = 0;
   const maxSlide = slides.length;
-
+  ///////////////////
+  //////////////////
   // Functions
   const createDots = function () {
     slides.forEach(function (_, i) {
